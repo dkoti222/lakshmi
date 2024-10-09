@@ -5,6 +5,7 @@ import Onboarding from '../components/onboarding/Onboarding';
 import Home from '../components/home/Home';
 import Detail from '../components/home/Detail';
 import { Data } from '../components/home/data';
+import TabNavigation from './TabNavigation';
 
 export type SharedElementStackParamList = {
   Onboarding: undefined;
@@ -17,10 +18,11 @@ const Navigation = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator
-        initialRouteName="Onboarding"
+        initialRouteName="TabNavigation"
         screenOptions={{ headerShown: false, presentation: 'transparentModal' }}
       >
         <Stack.Screen name="Onboarding" component={Onboarding} />
+        <Stack.Screen name="TabNavigation" component={TabNavigation} />
         <Stack.Screen
           name="Home"
           component={Home}

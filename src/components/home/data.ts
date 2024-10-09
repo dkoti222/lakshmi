@@ -43,6 +43,24 @@ const data: Data[] = [
         about:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse iaculis nulla tortor, at viverra augue venenatis eget. Nam magna ligula, consequat sit amet purus eu, eleifend maximus elit. Aliquam rhoncus fringilla venenatis. In pulvinar lacus quis urna suscipit, placerat commodo turpis molestie. Cras tristique suscipit nisl, eu porttitor ex.',
     },
+    {
+        id: 5,
+        name: 'Kelingking Beach2',
+        location: 'Bali, Indonesia',
+        image: require('../../assets/images/KelingkingBeach.jpg'),
+
+        about:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse iaculis nulla tortor, at viverra augue venenatis eget. Nam magna ligula, consequat sit amet purus eu, eleifend maximus elit. Aliquam rhoncus fringilla venenatis. In pulvinar lacus quis urna suscipit, placerat commodo turpis molestie. Cras tristique suscipit nisl, eu porttitor ex.',
+    },
+    {
+        id: 6,
+        name: 'Diamond Beach2',
+        location: 'Bali, Indonesia',
+        image: require('../../assets/images/DiamondBeach.jpg'),
+
+        about:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse iaculis nulla tortor, at viverra augue venenatis eget. Nam magna ligula, consequat sit amet purus eu, eleifend maximus elit. Aliquam rhoncus fringilla venenatis. In pulvinar lacus quis urna suscipit, placerat commodo turpis molestie. Cras tristique suscipit nisl, eu porttitor ex.',
+    },
 ];
 
 export default data;
